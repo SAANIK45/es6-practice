@@ -12,13 +12,16 @@ const products = [
 ];
 //filter method using in condition
 //find every element and compare
+//filter give every element and if the element not in the object filter give an empty object
 const expensive = products.filter(product => product.price > 100);
 // console.log(expensive);
-const blacks = products.filter(product => product.color == 'pink');
+const blacks = products.filter(product => product.color == 'black');
 // console.log(blacks);
 const white = products.filter(product => product.color == 'white');
 
-console.log(white);
+// console.log(white);
 
-const whiteItem = products.find(product => product.color == 'black');
+//find give first element only
+const pinkItem = products.find(product => product.color == 'pink');
+console.log(pinkItem);
 // console.log(whiteItem);
