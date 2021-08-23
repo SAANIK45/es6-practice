@@ -10,11 +10,15 @@ const products = [
     { name: 'sticky note', price: 30, color: 'pink' },
     { name: 'water glass', price: 3, color: 'white' }
 ];
-
+//filter method using in condition
+//find every element and compare
 const expensive = products.filter(product => product.price > 100);
 // console.log(expensive);
 const blacks = products.filter(product => product.color == 'pink');
 // console.log(blacks);
+const white = products.filter(product => product.color == 'white');
+
+console.log(white);
 
 const whiteItem = products.find(product => product.color == 'black');
-console.log(whiteItem);
+// console.log(whiteItem);
