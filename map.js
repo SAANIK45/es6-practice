@@ -23,4 +23,7 @@ const output = numbers.map(x => x * 2);
 // console.log(output);
 
 const squares = numbers.map(x => x * x);
-console.log(squares);
+
+const double = numbers.map(x => x + x);
+
+console.log(double,squares,output);
