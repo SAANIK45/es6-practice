@@ -10,10 +10,16 @@ const products = [
     { name: 'sticky note', price: 30, color: 'pink' },
     { name: 'water glass', price: 3, color: 'white' }
 ];
+//loop through with object and out in the array
+//return every element
+const product = products.map(product => product);
+console.log(product);
 const productNames = products.map(product => product.name);
+const productColor = products.map(product => product.color);
 const productPrices = products.map(product => product.price);
 // products.map(product => console.log(product));
-console.log(productNames,productPrices);
-
+// console.log(productNames,productColor,productPrices);
+//using forEach to get the every element
+//Not return element
 products.forEach(product => console.log(product));
 // console.log(productPrices);
