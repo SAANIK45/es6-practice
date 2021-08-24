@@ -19,7 +19,7 @@ const blacks = products.filter(product => product.color == 'black');
 // console.log(blacks);
 const white = products.filter(product => product.color == 'white');
 
-// console.log(white);
+console.log(white);
 
 //find give first element only
 const pinkItem = products.find(product => product.color == 'pink');
