@@ -39,4 +39,5 @@ const reza = new CseTeacher('Reza','Dhaka',443555,'Phygics');
 const megha = new BbaTeacher('Megha','Khulna',3434334,'Accounting');
 const mahmud = new CseTeacher('Mahmud','Dinajpur',2342342,'C','Code-blocks');
 const mahumdActivity = mahmud.cseActivity('Mahmud ');
+
 console.log(reza,megha,mahmud,mahumdActivity);
