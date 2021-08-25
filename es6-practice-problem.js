@@ -29,4 +29,19 @@ const multiply = (a,b,c) => a*b*c;
 //Map using arrow
 const values = [4,6,11,4,8,9];
 const result = values.map(number => number * 5);
-console.log(result);
+// console.log(result);
+//Filter
+const numbersTwo = [23,55,66,132,7,23,24,17];
+const oddNum = numbersTwo.filter(number => number % 2 != 0 );
+// console.log(oddNum);
+
+//Find
+const products = [
+    {name : 'Monitor', price : 13000},
+    {name : 'Mouse', price : 1300},
+    {name : 'Ram', price : 4000},
+    {name : 'Hdd', price : 7000},
+    {name : 'keyboard', price : 5000}
+]
+const element = products.find(product => product.price == 5000)
+// console.log(element);
