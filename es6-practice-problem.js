@@ -45,3 +45,16 @@ const products = [
 ]
 const element = products.find(product => product.price == 5000)
 // console.log(element);
+
+const teacher  = {
+    name:'AJK',
+    phone : 23341235,
+    designation : 'Lecturer'
+}
+//destructuring
+const {name,phone} = teacher;
+// console.log(name,phone);
+
+const elements = [4,6,11,4,8,9];
+const [,,third] = elements;
+console.log(third);
