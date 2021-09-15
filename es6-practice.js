@@ -44,4 +44,8 @@ const result6 = numbers.filter(number => number > 6);
 //find
 const result7 = numbers.find(number => number > 6);
 
-console.log(result7);
+//setTimeout 
+setTimeout(function(){
+    console.log('Hello');
+},5000)
+
